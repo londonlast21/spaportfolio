@@ -2,10 +2,14 @@ import React from 'react';
 import coverImage from "../../assets/cover/profile.png";
 
 function About() {
-    return (
-        <section className="my-5">
 
-            <h1 id="about">Who am I?</h1>
+    
+
+
+    return (
+        <section className="about-me">
+
+            <h1>Who am I?</h1>
     
             <div className = "about-me-wrapper">
 
