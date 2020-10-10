@@ -9,7 +9,6 @@ function About() {
     return (
         <section className="about-me">
 
-            <h1>Who am I?</h1>
     
             <div className = "about-me-wrapper">
 
