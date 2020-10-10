@@ -14,6 +14,16 @@ function Footer() {
                         Instagram
                     </a>
                 </li>
+                <li className="mx-2">
+                    <a href="https://www.linkedin.com/in/jack-cady-7956a51a9/">
+                        LinkedIn
+                    </a>
+                </li>
+                <li className="mx-2">
+                    <a href="https://www.facebook.com/jack.cady.129">
+                        Facebook
+                    </a>
+                </li>
             </ul>
 
        </footer>
