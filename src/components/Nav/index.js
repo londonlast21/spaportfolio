@@ -2,20 +2,20 @@ import React from 'react';
 
 function Nav() {
 
-    const categories = [
-        {
-            name: "Portfolio",
-            description: "Check out some of my work"
-        },
-        {
-            name: "Resume",
-            description: "Current resume"
-        }
-    ]
+    // const categories = [
+    //     {
+    //         name: "Portfolio",
+    //         description: "Check out some of my work"
+    //     },
+    //     {
+    //         name: "Resume",
+    //         description: "Current resume"
+    //     }
+    // ]
 
-    function categorySelected(name) {
-        console.log(`${name} clicked`)
-    }
+    // function categorySelected(name) {
+    //     console.log(`${name} clicked`)
+    // }
 
 
   return (
