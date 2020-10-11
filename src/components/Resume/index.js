@@ -7,7 +7,7 @@ function Resume() {
 
             <div>
                 <h3>Downloadable Resume</h3>
-                <a href="https://docs.google.com/document/d/e/2PACX-1vQS-TAscI5tSYVxJazsXF4MwBhYCLSAkElSvhD5hx3FwBv-TWrG2kAUpZzd6iST9JW1k5weuP-VdvK-/pub">
+                <a className="resume-link" href="https://docs.google.com/document/d/e/2PACX-1vQS-TAscI5tSYVxJazsXF4MwBhYCLSAkElSvhD5hx3FwBv-TWrG2kAUpZzd6iST9JW1k5weuP-VdvK-/pub">
                     LINK
                 </a> 
                  

@@ -11,13 +11,9 @@ function Nav(props) {
         </h2>
         <nav>
             <ul className="flex-row">
-<<<<<<< HEAD
-                <li className="mx-2">
-                    <span>About Me</span>
-=======
+
             <li className="nav-item">
                     <span className="option" onClick={() => props.setPage("About")}>About Me</span>
->>>>>>> feature/css-to-master
                 </li>
 
                 <li className="nav-item">
@@ -25,7 +21,7 @@ function Nav(props) {
                 </li>
         
                 <li className="nav-item">
-                    <span className="option" onClick={() => props.setPage("Contact")}>Contact</span>
+                    <span className="option" onClick={() => props.setPage("ContactForm")}>Contact</span>
                 </li>
 
                 <li className="nav-item">
