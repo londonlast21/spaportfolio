@@ -1,7 +1,11 @@
 import React from 'react';
 import { capitalizeFirstLetter } from ".././utils/helpers";
 
-function Nav() {
+function Nav(props) {
+    const {
+        contactSelected,
+        setContactSelected
+    } = props;
 
    
 
@@ -35,20 +39,36 @@ function Nav() {
         <nav>
             <ul className="flex-row">
                 <li className="mx-2">
-                    <span><h5>About Me</h5></span>
+                    <span onClick={() => 
+                        setContactSelected(false);
+                    }>
+                        <h5>About Me</h5>
+                    </span>
                 </li>
 
                 <li className="mx-2">
-                    <span><h5>Portfolio</h5></span>
+                    <span onClick={() => 
+                        setContactSelected(false);
+                    }>
+                        <h5>Portfolio</h5>
+                    </span>
                 </li>
 
                 <li className="mx-2">
-                    <span><h5>Resume</h5></span>
+                    <span onClick={() => 
+                        setContactSelected(false)
+                    }>
+                        <h5>Resume</h5>
+                    </span>
                 </li>
 
         
                 <li className="mx-2">
-                    <span><h5>Contact</h5></span>
+                    <span onClick={() => 
+                        setContactSelected(true)
+                    }>
+                        <h5>Contact</h5>
+                    </span>
                 </li>
 
              
