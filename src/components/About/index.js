@@ -24,6 +24,7 @@ function About() {
                         I'm a full-stack web developer with a background in social media, advocacy work,
                         sociology, and management.
                     <br></br>
+                    <br></br>
                         Location: Madison, WI
                     </p>
                     </div>

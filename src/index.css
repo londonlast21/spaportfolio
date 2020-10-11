@@ -76,6 +76,11 @@ label > .label-body {
   
 /* CUSTOM STYLING BELOW HERE */
 /*header styling*/
+
+.my-name {
+  color: darkcyan;
+  font-size: 35px;
+}
 header {
   padding: 10px;
   background-color: blanchedalmond;

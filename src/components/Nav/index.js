@@ -22,7 +22,7 @@ function Nav() {
     <header>
         <h2>
             <a href="/">
-                <span role="img" aria-label="camera">J. L. Cady🌱</span> 
+                <span role="img" className="my-name">J. L. Cady🌱</span> 
             </a>
         </h2>
         <nav>
