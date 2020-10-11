@@ -28,9 +28,7 @@ function Nav() {
         <nav>
             <ul className="flex-row">
                 <li className="mx-2">
-                    <a href="#about">
-                    About Me
-                    </a>
+                    <span>About Me</span>
                 </li>
 
                 <li className="mx-2">
