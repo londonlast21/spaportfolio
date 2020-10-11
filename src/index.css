@@ -527,8 +527,14 @@ footer ul li a:hover {
   font-size: 3rem;
 }
 
-.about-column-left {}
+.about-column img {
+  
+ float: left;
+ height: 30%;
+}
 
-.about-column-right {
+.about-column-block {
+  
   
 }
+
