@@ -11,11 +11,11 @@ function Portfolio() {
         <section id="my-works" className="works">
 
             <div className="work-grid-wrapper">
-                <h2 className="section-title">
+                <h2 className="work-grid-title">
                     My Work    
                 </h2>
                 
-                <div>
+                <div className="work-grid">
 
                     <div>
                     <a href="https://londonlast21.github.io/run-buddy/">

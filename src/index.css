@@ -221,3 +221,8 @@ footer ul li a:hover {
   margin-left: 10%;
 }
 
+/* custom CSS for portfolio styling */
+
+.work-grid-title {
+  text-align: center;
+}

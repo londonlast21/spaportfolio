@@ -13,9 +13,9 @@ function App() {
       <Nav></Nav>
       <main>
         {/* <Resume></Resume>
-        <ContactForm></ContactForm>
-        <Portfolio></Portfolio> */}
-        <About></About>
+        <ContactForm></ContactForm> */}
+        <Portfolio></Portfolio>
+        {/* <About></About> */}
 
 
       </main>
