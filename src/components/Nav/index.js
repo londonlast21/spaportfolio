@@ -1,15 +1,22 @@
 import React from 'react';
+import { capitalizeFirstLetter } from ".././utils/helpers";
 
 function Nav() {
 
+   
+
     // const categories = [
     //     {
-    //         name: "Portfolio",
-    //         description: "Check out some of my work"
+    //         name: "Portfolio"
     //     },
     //     {
-    //         name: "Resume",
-    //         description: "Current resume"
+    //         name: "Resume"
+    //     },
+    //     {
+    //         name: "Contact"
+    //     },
+    //     {
+    //         name: "About Me"
     //     }
     // ]
 
@@ -22,29 +29,29 @@ function Nav() {
     <header>
         <h2>
             <a href="/">
-                <span role="img" aria-label="camera">J. L. Cady🌱</span> 
+                <span role="img">J. L. Cady🌱</span> 
             </a>
         </h2>
         <nav>
             <ul className="flex-row">
                 <li className="mx-2">
-                    <a href="#about">
-                    About Me
-                    </a>
+                    <span><h5>About Me</h5></span>
                 </li>
 
                 <li className="mx-2">
-                    <span>Portfolio</span>
+                    <span><h5>Portfolio</h5></span>
                 </li>
+
+                <li className="mx-2">
+                    <span><h5>Resume</h5></span>
+                </li>
+
         
                 <li className="mx-2">
-                    <span>Contact</span>
+                    <span><h5>Contact</h5></span>
                 </li>
 
-                <li className="mx-2">
-                    <span>Resume</span>
-                </li>
-
+             
                     {/* {categories.map((category) => (
                         <li 
                             className="mx-1"
@@ -55,7 +62,7 @@ function Nav() {
                                 </span>
                             </li>
 
-                    ))} */}
+                    ))}  */}
             </ul>
         </nav>
     </header>
