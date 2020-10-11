@@ -4,7 +4,13 @@ import { capitalizeFirstLetter } from ".././utils/helpers";
 function Nav(props) {
     const {
         contactSelected,
-        setContactSelected
+        setContactSelected,
+        resumeSelected,
+        setResumeSelected,
+        portfolioSelected,
+        setPortfolioSelected,
+        aboutSelected,
+        setAboutSelected
     } = props;
 
    
@@ -38,35 +44,48 @@ function Nav(props) {
         </h2>
         <nav>
             <ul className="flex-row">
-                <li className="mx-2">
-                    <span onClick={() => 
+                <li className={`mx-2 ${aboutSelected && 'navActive'}`}>
+                    <span onClick={() => {
                         setContactSelected(false);
-                    }>
+                        setResumeSelected(false);
+                        setAboutSelected(true);
+                        setPortfolioSelected(false)
+                    }}>
                         <h5>About Me</h5>
                     </span>
                 </li>
 
-                <li className="mx-2">
-                    <span onClick={() => 
+                <li className={`mx-2 ${portfolioSelected && 'navActive'}`}>
+                    <span onClick={() => {
                         setContactSelected(false);
-                    }>
+                        setResumeSelected(false);
+                        setAboutSelected(false);
+                        setPortfolioSelected(true)
+                    }}>
                         <h5>Portfolio</h5>
                     </span>
                 </li>
 
-                <li className="mx-2">
-                    <span onClick={() => 
-                        setContactSelected(false)
-                    }>
+                <li className={`mx-2 ${resumeSelected && 'navActive'}`}>
+                    <span onClick={() => {
+                        setContactSelected(false);
+                        setResumeSelected(true);
+                        setAboutSelected(false);
+                        setPortfolioSelected(false)
+                    }}>
                         <h5>Resume</h5>
                     </span>
                 </li>
+                
 
         
-                <li className="mx-2">
-                    <span onClick={() => 
-                        setContactSelected(true)
-                    }>
+                <li className={`mx-2 ${contactSelected && 'navActive'}`}>
+                    <span onClick={() => {
+                        setContactSelected(true);
+                        setResumeSelected(false);
+                        setAboutSelected(false);
+                        setPortfolioSelected(false)
+                    }}>
                         <h5>Contact</h5>
                     </span>
                 </li>
