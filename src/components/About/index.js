@@ -17,7 +17,7 @@ function About() {
                 </h2>
 
                 <div className="about-column">
-                    <img src={coverImage} className="my-2" style={{ width: "50%" }} alt="cover" />
+                    <img src={coverImage} className="bio-pic" style={{ width: "25%" }} alt="cover" />
                     <div className="about-column-block">
                     <h3>Jack L. Cady</h3>
                     <p>

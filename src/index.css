@@ -189,12 +189,19 @@ footer ul li a:hover {
 
 .about-column img {
  float: left;
- padding: 1%;
- 
+ padding: 1%; 
 }
 
 .about-column {
   text-align: center;
+}
+
+.section-title {
+  margin: 10px;
+}
+
+.about-me-block {
+  margin: 10px;
 }
 
 

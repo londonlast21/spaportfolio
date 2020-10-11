@@ -6,7 +6,7 @@ function Nav(props) {
     <header>
         <h2>
             <a href="/">
-                <span role="img" className="my-name">J. L. Cady🌱</span> 
+                <span role="img" aria-label="sprouting seedling" className="my-name">J. L. Cady🌱</span> 
             </a>
         </h2>
         <nav>
