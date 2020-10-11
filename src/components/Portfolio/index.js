@@ -24,29 +24,29 @@ function Portfolio() {
                     <p>
                         Run Buddy
                      </p>
-                     <img src={projectImg1} className="my-2" style={{ width: "25%" }} alt="Run-Buddy Application" />
+                     <img src={projectImg1} className="work-img" style={{ width: "100%" }} alt="Run-Buddy Application" />
                     </a>
                     <a href="https://github.com/londonlast21/run-buddy">GitHub Repo</a>
                     </div>
 
-                    <div>
+                    <div className="work-grid-item">
                         <a href="https://limitless-meadow-67694.herokuapp.com/">
                         <p>
                             Trans-Safe Healthcare App
                         </p>
-                        <img src={projectImg2} className="my-2" style={{ width: "25%" }} alt="Trans Safe-Healthcare App" />
+                        <img src={projectImg2} className="my-2" style={{ width: "100%" }} alt="Trans Safe-Healthcare App" />
                         
                         </a>
                         <a href="https://github.com/londonlast21/project2">GitHub Repo</a>
                     </div>
                     
 
-                    <div>
+                    <div className="work-grid-item">
                         <a href="https://londonlast21.github.io/password/">
                         <p>
                         Password Generator
                         </p>
-                        <img src={projectImg3} className="my-2" style={{ width: "25%" }} alt="Password Generator" />
+                        <img src={projectImg3} className="my-2" style={{ width: "100%" }} alt="Password Generator" />
                         </a>
                         <a href="https://github.com/londonlast21/password">GitHub Repo</a>
 
@@ -55,33 +55,33 @@ function Portfolio() {
                     
 
                     
-                    <div>
+                    <div className="work-grid-item">
                         <a href="https://londonlast21.github.io/quiz/">
                         <p>
                         Coding Quiz
                         </p>
-                        <img src={projectImg4} className="mx-2" style={{ width: "25%" }} alt="Timed Coding Quiz" />
+                        <img src={projectImg4} className="mx-2" style={{ width: "100%" }} alt="Timed Coding Quiz" />
                         </a>
                         <a href="https://github.com/londonlast21/quiz">GitHub Repo</a>
                     </div>
 
-                    <div>
+                    <div className="work-grid-item">
                         <a href="https://protected-falls-61512.herokuapp.com/">
                         <p>
                         Budget Tracker
                         </p>
-                        <img src={projectImg5} className="mx-2" style={{ width: "25%" }} alt="On and offline budget tracker app" />
+                        <img src={projectImg5} className="mx-2" style={{ width: "100%" }} alt="On and offline budget tracker app" />
                         </a>
                         <a href="https://github.com/londonlast21/budgetapp">GitHub Repo</a>
                     </div>
 
-                    <div>
+                    <div className="work-grid-item">
                     
                         <a href="https://londonlast21.github.io/filmskeleton/">
                             <p>
                                 Trauma Recovery Board
                             </p>
-                            <img src={projectImg6} className="mx-2" style={{ width: "25%" }} alt="Tracking app for mental health recovery" />
+                            <img src={projectImg6} className="mx-2" style={{ width: "100%" }} alt="Tracking app for mental health recovery" />
                         </a>
                         <a href="https://github.com/londonlast21/filmskeleton">GitHub Repo</a>
                     </div>

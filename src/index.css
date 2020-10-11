@@ -227,8 +227,8 @@ footer ul li a:hover {
 .work-grid {
   display: grid;
      grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-  width: 100%; 
+    grid-template-rows: repeat(2, 1fr);
+    width: 100%; 
 
 }
 
@@ -246,5 +246,15 @@ footer ul li a:hover {
   text-align: center;
 }
 
+.work-grid-item {
+  height: fit-content;
+  text-align: center;
+  margin: 15px;
+  border: 
+}
 
-  
+.work-grid-item:hover {
+  outline: 5px solid var(black);    
+
+}
+
