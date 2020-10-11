@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import About from './components/About';
 import Nav from './components/Nav';
@@ -8,33 +8,13 @@ import ContactForm from './components/Contact';
 import Resume from './components/Resume';
 
 function App() {
-  // render contact page
-  const [contactSelected, setContactSelected] = useState(false);
+  const [pages] = useState([{name:"About"}, {name:"Portfolio"}, {name:"Resume"}, {name:"ContactForm"}])
 
-  // render portfolio page 
-  const [portfolioSelected, setPortfolioSelected] = useState(false);
-
-  // render resume page
-  const [resumeSelected, setResumeSelected] = useState(false);
-
-  // render about page: eval to true so it is landing page shown!
-  const [aboutSelected, setAboutSelected] = useState(true)
-
+  const [currentPage, setCurrentPage] = useState(pages[0]);
 
   return (
     <div>
       <Nav
-      contactSelected={contactSelected}
-      setContactSelected={setContactSelected}
-
-      resumeSelected={resumeSelected}
-      setResumeSelected={setResumeSelected}
-
-      portfolioSelected={portfolioSelected}
-      setPortfolioSelected={setPortfolioSelected}
-
-      aboutSelected={aboutSelected}
-      setAboutSelected={setAboutSelected}
 
       ></Nav>
       
@@ -48,7 +28,7 @@ function App() {
         ) : (
           <ContactForm></ContactForm>
         )}
-
+{/* 
         
         {!portfolioSelected ? (
         <>
@@ -70,7 +50,7 @@ function App() {
           <Resume></Resume>
         )}
         
-        {!aboutSlected ? (
+        {!aboutSelected ? (
         <>
         <Resume></Resume>
         <Portfolio></Portfolio>
@@ -79,7 +59,7 @@ function App() {
         ) : (
           <About></About>
         )}
-
+ */}
 
       </main>
       <Footer></Footer>
