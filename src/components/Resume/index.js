@@ -2,7 +2,7 @@ import React from 'react';
 
 function Resume() {
     return (
-        <section className="my-5">
+        <section className="resume-outer">
             <h1>Resume</h1>
 
             <div>
@@ -13,12 +13,12 @@ function Resume() {
                  
             </div>
 
-            <div>
+            <div className="resume-outer">
                 
                 <h3>Proficiencies</h3>
                 <ul className="resume-list">
                    
-                    <li>
+                    <li className="skill">
                         HTML
                     </li>
                     <li>
@@ -46,8 +46,9 @@ function Resume() {
                         Sequelize
                     </li>
                 </ul>
+                <h3>Experience With:</h3>
                 <ul className="resume-list">
-                    <h5>Experience With:</h5>
+                    
                     <li>
                         MVC
                     </li>

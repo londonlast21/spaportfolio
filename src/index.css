@@ -82,6 +82,10 @@ label > .label-body {
   font-size: 35px;
 }
 
+.my-name:hover {
+  color:darkgray;
+}
+
 header {
   padding: 10px;
   background-color: blanchedalmond;
@@ -228,7 +232,7 @@ footer ul li a:hover {
   text-align: center;
 }
 
-.my-5-div-1 {
+/* .my-5-div-1 {
   margin-left: 10%;
 }
 
@@ -239,7 +243,7 @@ footer ul li a:hover {
 
 .my-5-div-2 {
   margin-left: 10%;
-}
+} */
 
 .resume-link {
   color: forestgreen;
@@ -247,6 +251,14 @@ footer ul li a:hover {
 
 .resume-list {
   list-style: none;
+  text-align: center;
+}
+
+.resume-outer {
+  text-align: center;
+}
+
+.skill {
   text-align: center;
 }
 
