@@ -17,15 +17,17 @@ function Portfolio() {
                 
                 <div>
 
-                    
+                    <div>
                     <a href="https://londonlast21.github.io/run-buddy/">
                     <p>
                         Run Buddy
                      </p>
                      <img src={projectImg1} className="my-2" style={{ width: "25%" }} alt="Run-Buddy Application" />
                     </a>
+                    <a href="https://github.com/londonlast21/run-buddy">GitHub Repo</a>
+                    </div>
 
-                   
+                    <div>
                         <a href="https://limitless-meadow-67694.herokuapp.com/">
                         <p>
                             Trans-Safe Healthcare App
@@ -33,6 +35,8 @@ function Portfolio() {
                         <img src={projectImg2} className="my-2" style={{ width: "25%" }} alt="Trans Safe-Healthcare App" />
                         
                         </a>
+                        <a href="https://github.com/londonlast21/project2">GitHub Repo</a>
+                    </div>
                     
 
                     <div>
@@ -42,6 +46,8 @@ function Portfolio() {
                         </p>
                         <img src={projectImg3} className="my-2" style={{ width: "25%" }} alt="Password Generator" />
                         </a>
+                        <a href="https://github.com/londonlast21/password">GitHub Repo</a>
+
                     </div>
 
                     <div>
@@ -51,6 +57,7 @@ function Portfolio() {
                         </p>
                         <img src={projectImg4} className="mx-2" style={{ width: "25%" }} alt="Timed Coding Quiz" />
                         </a>
+                        <a href="https://github.com/londonlast21/quiz">GitHub Repo</a>
                     </div>
 
                     <div>
@@ -60,6 +67,7 @@ function Portfolio() {
                         </p>
                         <img src={projectImg5} className="mx-2" style={{ width: "25%" }} alt="On and offline budget tracker app" />
                         </a>
+                        <a href="https://github.com/londonlast21/budgetapp">GitHub Repo</a>
                     </div>
 
                     <div>
@@ -69,9 +77,8 @@ function Portfolio() {
                                 Trauma Recovery Board
                             </p>
                             <img src={projectImg6} className="mx-2" style={{ width: "25%" }} alt="Tracking app for mental health recovery" />
-
-
                         </a>
+                        <a href="https://github.com/londonlast21/filmskeleton">GitHub Repo</a>
                     </div>
 
 
