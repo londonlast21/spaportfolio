@@ -23,7 +23,21 @@ function App() {
 
   return (
     <div>
-      <Nav></Nav>
+      <Nav
+      contactSelected={contactSelected}
+      setContactSelected={setContactSelected}
+
+      resumeSelected={resumeSelected}
+      setResumeSelected={setResumeSelected}
+
+      portfolioSelected={portfolioSelected}
+      setPortfolioSelected={setPortfolioSelected}
+
+      aboutSelected={aboutSelected}
+      setAboutSelected={setAboutSelected}
+
+      ></Nav>
+      
       <main>
         {!contactSelected ? (
         <>
