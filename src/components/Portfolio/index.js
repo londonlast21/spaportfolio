@@ -16,8 +16,10 @@ function Portfolio() {
                 </h2>
                 
                 <div className="work-grid">
+                    
+                
 
-                    <div>
+                    <div className="work-grid-item">
                     <a href="https://londonlast21.github.io/run-buddy/">
                     <p>
                         Run Buddy
@@ -50,6 +52,9 @@ function Portfolio() {
 
                     </div>
 
+                    
+
+                    
                     <div>
                         <a href="https://londonlast21.github.io/quiz/">
                         <p>
@@ -81,9 +86,11 @@ function Portfolio() {
                         <a href="https://github.com/londonlast21/filmskeleton">GitHub Repo</a>
                     </div>
 
+                    </div>
+
 
                 </div>
-            </div>
+            
         </section>
     );
 }
