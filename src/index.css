@@ -184,7 +184,11 @@ footer ul li a:hover {
 /* about section css styling */
 .about-me-wrapper h2 {
   text-align: center;
-  font-size: 3rem;
+}
+
+.about-title {
+  margin: 10px;
+  text-align: center;
 }
 
 .about-column img {
@@ -198,6 +202,7 @@ footer ul li a:hover {
 
 .section-title {
   margin: 10px;
+  font-size: 2em;
 }
 
 .about-me-block {
@@ -220,7 +225,7 @@ footer ul li a:hover {
 /* resume page custom css styling */
 
 .my-5 {
-  margin-left: 15%
+  text-align: center;
 }
 
 .my-5-div-1 {
@@ -238,6 +243,11 @@ footer ul li a:hover {
 
 .resume-link {
   color: forestgreen;
+}
+
+.resume-list {
+  list-style: none;
+  text-align: center;
 }
 
 /* custom CSS for portfolio styling */

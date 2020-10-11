@@ -16,7 +16,7 @@ function Resume() {
             <div>
                 
                 <h3>Proficiencies</h3>
-                <ul>
+                <ul className="resume-list">
                    
                     <li>
                         HTML
@@ -46,7 +46,7 @@ function Resume() {
                         Sequelize
                     </li>
                 </ul>
-                <ul>
+                <ul className="resume-list">
                     <h5>Experience With:</h5>
                     <li>
                         MVC

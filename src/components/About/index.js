@@ -12,9 +12,9 @@ function About() {
     
             <div className = "about-me-wrapper">
 
-                <h2 className="section-title">
+                <h1 className="about-title">
                     About Me
-                </h2>
+                </h1>
 
                 <div className="about-column">
                     <img src={coverImage} className="bio-pic" style={{ width: "25%" }} alt="cover" />

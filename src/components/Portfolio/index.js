@@ -11,9 +11,9 @@ function Portfolio() {
         <section id="my-works" className="works">
 
             <div className="work-grid-wrapper">
-                <h2 className="work-grid-title">
+                <h1 className="work-grid-title">
                     My Work    
-                </h2>
+                </h1>
                 
                 <div className="work-grid">
                     
