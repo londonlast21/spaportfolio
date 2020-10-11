@@ -1,7 +1,8 @@
 
 # Created With:
 
-## PUre.css library
+## PUre.css library- responsive styling
+## Skeleton.css- form styling [logo]
 
 ## Create React App
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
