@@ -2,7 +2,7 @@
 # Created With:
 
 ## PUre.css library- responsive styling
-## Skeleton.css- form styling [logo]
+## Skeleton.css- form styling ![favicon](https://user-images.githubusercontent.com/65084173/95691934-a1373480-0be8-11eb-81d3-75d84d61bd66.png)
 
 ## Create React App
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
