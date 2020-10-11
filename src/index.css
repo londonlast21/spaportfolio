@@ -188,7 +188,12 @@ footer ul li a:hover {
 
 .about-column img {
  float: left;
+ padding: 1%;
  
+}
+
+.about-column {
+  text-align: center;
 }
 
 
@@ -215,3 +220,4 @@ footer ul li a:hover {
 .my-5-div-2 {
   margin-left: 10%;
 }
+
