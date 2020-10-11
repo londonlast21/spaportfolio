@@ -1,22 +1,6 @@
 import React from 'react';
 
-function Nav() {
-
-    // const categories = [
-    //     {
-    //         name: "Portfolio",
-    //         description: "Check out some of my work"
-    //     },
-    //     {
-    //         name: "Resume",
-    //         description: "Current resume"
-    //     }
-    // ]
-
-    // function categorySelected(name) {
-    //     console.log(`${name} clicked`)
-    // }
-
+function Nav(props) {
 
   return (
     <header>
@@ -27,35 +11,21 @@ function Nav() {
         </h2>
         <nav>
             <ul className="flex-row">
-                <li className="mx-2">
-                    <a href="#about">
-                    About Me
-                    </a>
+            <li className="mx-2">
+                    <span onClick={() => props.setPage("About")}>About Me</span>
                 </li>
 
                 <li className="mx-2">
-                    <span>Portfolio</span>
+                    <span onClick={() => props.setPage("Portfolio")}>Portfolio</span>
                 </li>
         
                 <li className="mx-2">
-                    <span>Contact</span>
+                    <span onClick={() => props.setPage("Contact")}>Contact</span>
                 </li>
 
                 <li className="mx-2">
-                    <span>Resume</span>
+                    <span onClick={() => props.setPage("Resume")}>Resume</span>
                 </li>
-
-                    {/* {categories.map((category) => (
-                        <li 
-                            className="mx-1"
-                            key={category.name}
-                            >
-                                <span onClick={() => categorySelected(category.name)} >
-                                    {category.name}
-                                </span>
-                            </li>
-
-                    ))} */}
             </ul>
         </nav>
     </header>
