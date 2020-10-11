@@ -417,6 +417,11 @@ there.
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
 
+
+
+
+
+/* CUSTOM STYLING BELOW HERE */
 /*header styling*/
 header {
   padding: 10px;
@@ -468,12 +473,22 @@ header nav ul li a:hover {
 
 /* footer styling */
 
+/* styling to make footer stay in place */
+
+main{
+  display: flex;
+  flex-direction: column;
+}
+
+
 footer {
-  width: 100%;
+
+  min-height: 50px;
   background-color: blanchedalmond;
   display: flex;
-  justify-content: space-between;
+  
   flex-wrap: wrap;
+  margin-top: auto;
   
  
   
@@ -484,19 +499,18 @@ footer a {
 
 }
 
-
-
 footer ul {
   display: flex;
   flex-wrap: wrap;
-
   list-style: none;
+  
 }
 
 footer ul li a {
   margin: 0 40px;
   font-weight: lighter;
   font-size: 28px;
+  
   
 }
 
@@ -508,5 +522,13 @@ footer ul li a:hover {
 
 
 /* about section css styling */
+.about-me-wrapper h2 {
+  text-align: center;
+  font-size: 3rem;
+}
 
+.about-column-left {}
 
+.about-column-right {
+  
+}

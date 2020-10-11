@@ -12,7 +12,7 @@ function About() {
     
             <div className = "about-me-wrapper">
 
-                <h2 className="section-title">
+                <h2 className="about-title">
                     About Me
                 </h2>
 
