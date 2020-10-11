@@ -50,9 +50,9 @@ function ContactForm() {
 
 
     return (
-        <section>
+        <section className="contact-overlay">
           <h1>Contact me</h1>
-          <form id="contact-form" onSubmit={handleSubmit}>
+          <form className="contact-form" onSubmit={handleSubmit}>
              <div>
                 <label htmlFor="name">Name:</label>
                 <input type="text"  defaultValue={name} onBlur={handleChange} name="name" />
