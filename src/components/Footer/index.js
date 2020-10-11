@@ -19,11 +19,7 @@ function Footer() {
                         LinkedIn
                     </a>
                 </li>
-                <li className="mx-2">
-                    <a href="https://www.facebook.com/jack.cady.129">
-                        Facebook
-                    </a>
-                </li>
+              
             </ul>
 
        </footer>
