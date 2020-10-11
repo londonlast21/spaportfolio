@@ -51,7 +51,7 @@ function ContactForm() {
 
     return (
         <section className="contact-overlay">
-          <h1>Contact me</h1>
+          <h1 className="contact-title">Contact me</h1>
           <form className="contact-form" onSubmit={handleSubmit}>
              <div>
                 <label htmlFor="name">Name:</label>

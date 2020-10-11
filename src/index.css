@@ -202,13 +202,20 @@ footer ul li a:hover {
 
 .about-me-block {
   margin: 10px;
+  
 }
 
 
 /* contact form custom css styling */
 .contact-overlay {
   text-align: center;
+  margin: 10px;
 }
+
+.contact-title {
+  margin-top: 5px;
+}
+
 
 /* resume page custom css styling */
 
