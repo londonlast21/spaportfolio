@@ -72,6 +72,8 @@ label > .label-body {
   display: inline-block;
   margin-left: .5rem;
   font-weight: normal; }
+
+  
 /* CUSTOM STYLING BELOW HERE */
 /*header styling*/
 header {
@@ -137,9 +139,9 @@ footer {
   min-height: 50px;
   background-color: blanchedalmond;
   display: flex;
-  
   flex-wrap: wrap;
   margin-top: auto;
+  justify-content: center;
   
  
   
