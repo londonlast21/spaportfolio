@@ -81,6 +81,7 @@ label > .label-body {
   color: darkcyan;
   font-size: 35px;
 }
+
 header {
   padding: 10px;
   background-color: blanchedalmond;
@@ -186,9 +187,13 @@ footer ul li a:hover {
 }
 
 .about-column img {
-  
  float: left;
- height: 30%;
+ max-height: 50px;
 }
 
+
+/* contact form custom css styling */
+.contact-overlay {
+  text-align: center;
+}
 

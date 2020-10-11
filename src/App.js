@@ -12,9 +12,9 @@ function App() {
     <div>
       <Nav></Nav>
       <main>
-        {/* <Resume></Resume>
+        {/* <Resume></Resume>*/
         <ContactForm></ContactForm>
-        <Portfolio></Portfolio> */}
+        /*<Portfolio></Portfolio> */}
         <About></About>
 
 
