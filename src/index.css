@@ -188,7 +188,7 @@ footer ul li a:hover {
 
 .about-column img {
  float: left;
- max-height: 50px;
+ 
 }
 
 
@@ -197,3 +197,21 @@ footer ul li a:hover {
   text-align: center;
 }
 
+/* resume page custom css styling */
+
+.my-5 {
+  margin-left: 15%
+}
+
+.my-5-div-1 {
+  margin-left: 10%;
+}
+
+.my-5-link {
+  padding-left: 5%;
+
+}
+
+.my-5-div-2 {
+  margin-left: 10%;
+}
