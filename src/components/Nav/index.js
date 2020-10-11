@@ -11,20 +11,20 @@ function Nav(props) {
         </h2>
         <nav>
             <ul className="flex-row">
-            <li className="mx-2">
-                    <span onClick={() => props.setPage("About")}>About Me</span>
+            <li className="nav-item">
+                    <span className="option" onClick={() => props.setPage("About")}>About Me</span>
                 </li>
 
-                <li className="mx-2">
-                    <span onClick={() => props.setPage("Portfolio")}>Portfolio</span>
+                <li className="nav-item">
+                    <span className="option" onClick={() => props.setPage("Portfolio")}>Portfolio</span>
                 </li>
         
-                <li className="mx-2">
-                    <span onClick={() => props.setPage("Contact")}>Contact</span>
+                <li className="nav-item">
+                    <span className="option" onClick={() => props.setPage("Contact")}>Contact</span>
                 </li>
 
-                <li className="mx-2">
-                    <span onClick={() => props.setPage("Resume")}>Resume</span>
+                <li className="nav-item">
+                    <span className="option" onClick={() => props.setPage("Resume")}>Resume</span>
                 </li>
             </ul>
         </nav>
