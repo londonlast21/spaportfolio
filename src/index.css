@@ -151,11 +151,10 @@ footer {
   flex-wrap: wrap;
   margin-top: auto;
   justify-content: center;
-  position: fixed;
+  position: relative;
   bottom:0px;
   left:0px;
   width: 100%;
-  
 }
 
 
@@ -272,17 +271,11 @@ footer ul li a:hover {
 
 }
 
-.link-port {
-  color: 
-}
-
 .work-grid a:link {
   text-decoration: none;
 }
 
-.work-grid a:hover {
-  
-}
+
 
 .work-grid-title {
   text-align: center;
