@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/spaportfolio/static/css/main.83e1772d.chunk.css",
+    "main.css": "/spaportfolio/static/css/main.238214f0.chunk.css",
     "main.js": "/spaportfolio/static/js/main.981a0a24.chunk.js",
     "main.js.map": "/spaportfolio/static/js/main.981a0a24.chunk.js.map",
     "runtime-main.js": "/spaportfolio/static/js/runtime-main.1276cc48.js",
@@ -8,9 +8,9 @@
     "static/js/2.fcecb94d.chunk.js": "/spaportfolio/static/js/2.fcecb94d.chunk.js",
     "static/js/2.fcecb94d.chunk.js.map": "/spaportfolio/static/js/2.fcecb94d.chunk.js.map",
     "index.html": "/spaportfolio/index.html",
-    "precache-manifest.6e1233021890e3c71fd92169e6d6cc4c.js": "/spaportfolio/precache-manifest.6e1233021890e3c71fd92169e6d6cc4c.js",
+    "precache-manifest.2678ea447f5dd8adfc1cb1e295017a4c.js": "/spaportfolio/precache-manifest.2678ea447f5dd8adfc1cb1e295017a4c.js",
     "service-worker.js": "/spaportfolio/service-worker.js",
-    "static/css/main.83e1772d.chunk.css.map": "/spaportfolio/static/css/main.83e1772d.chunk.css.map",
+    "static/css/main.238214f0.chunk.css.map": "/spaportfolio/static/css/main.238214f0.chunk.css.map",
     "static/js/2.fcecb94d.chunk.js.LICENSE.txt": "/spaportfolio/static/js/2.fcecb94d.chunk.js.LICENSE.txt",
     "static/media/budgettracker.png": "/spaportfolio/static/media/budgettracker.cdcce04d.png",
     "static/media/password.png": "/spaportfolio/static/media/password.369a6f79.png",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.1276cc48.js",
     "static/js/2.fcecb94d.chunk.js",
-    "static/css/main.83e1772d.chunk.css",
+    "static/css/main.238214f0.chunk.css",
     "static/js/main.981a0a24.chunk.js"
   ]
 }
