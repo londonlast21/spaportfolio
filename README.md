@@ -6,7 +6,8 @@ This is the project portfolio for Jack Cady.
 It contains inforamtion about the developer, links to his work & resume, and a contact form to get in touch.
 
 ## Screenshot:
-![readme](https://user-images.githubusercontent.com/65084173/95692256-20793800-0bea-11eb-8e01-cc5cb063aeb6.png)
+![readme (2)](https://user-images.githubusercontent.com/65084173/95694913-13fcdb80-0bfa-11eb-85fd-29b65dc1a29f.png)
+
 
 # Link to Deployed Portfolio:
 
