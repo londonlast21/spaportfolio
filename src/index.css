@@ -266,8 +266,16 @@ footer ul li a:hover {
 
 }
 
+.link-port {
+  color: 
+}
+
 .work-grid a:link {
   text-decoration: none;
+}
+
+.work-grid a:hover {
+  
 }
 
 .work-grid-title {
