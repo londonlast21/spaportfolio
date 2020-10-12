@@ -195,6 +195,10 @@ footer ul li a:hover {
   text-align: center;
 }
 
+.me-name {
+  font-size: 22px;
+}
+
 .about-column img {
  float: left;
  padding: 1%; 
@@ -233,7 +237,7 @@ footer ul li a:hover {
 }
 
 .resume-link {
-  color: forestgreen;
+  color: darkcyan;
 }
 
 .resume-list {
@@ -254,7 +258,7 @@ footer ul li a:hover {
 .work-grid-item p {
   font-size: 22px;
   margin-top: 5px;
-  color:darkgreen;
+  color:royalblue;
 }
 
 
