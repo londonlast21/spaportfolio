@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/spaportfolio/static/css/main.83e1772d.chunk.css",
+    "main.js": "/spaportfolio/static/js/main.981a0a24.chunk.js",
+    "main.js.map": "/spaportfolio/static/js/main.981a0a24.chunk.js.map",
+    "runtime-main.js": "/spaportfolio/static/js/runtime-main.1276cc48.js",
+    "runtime-main.js.map": "/spaportfolio/static/js/runtime-main.1276cc48.js.map",
+    "static/js/2.fcecb94d.chunk.js": "/spaportfolio/static/js/2.fcecb94d.chunk.js",
+    "static/js/2.fcecb94d.chunk.js.map": "/spaportfolio/static/js/2.fcecb94d.chunk.js.map",
+    "index.html": "/spaportfolio/index.html",
+    "precache-manifest.6e1233021890e3c71fd92169e6d6cc4c.js": "/spaportfolio/precache-manifest.6e1233021890e3c71fd92169e6d6cc4c.js",
+    "service-worker.js": "/spaportfolio/service-worker.js",
+    "static/css/main.83e1772d.chunk.css.map": "/spaportfolio/static/css/main.83e1772d.chunk.css.map",
+    "static/js/2.fcecb94d.chunk.js.LICENSE.txt": "/spaportfolio/static/js/2.fcecb94d.chunk.js.LICENSE.txt",
+    "static/media/budgettracker.png": "/spaportfolio/static/media/budgettracker.cdcce04d.png",
+    "static/media/password.png": "/spaportfolio/static/media/password.369a6f79.png",
+    "static/media/profile.png": "/spaportfolio/static/media/profile.7e497a9b.png",
+    "static/media/quiz.png": "/spaportfolio/static/media/quiz.db50cead.png",
+    "static/media/run-buddy.png": "/spaportfolio/static/media/run-buddy.91356656.png",
+    "static/media/screenshot.png": "/spaportfolio/static/media/screenshot.1cdc744d.png",
+    "static/media/transforproj.png": "/spaportfolio/static/media/transforproj.3cbabb1a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1276cc48.js",
+    "static/js/2.fcecb94d.chunk.js",
+    "static/css/main.83e1772d.chunk.css",
+    "static/js/main.981a0a24.chunk.js"
+  ]
+}
