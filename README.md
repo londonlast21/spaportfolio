@@ -9,7 +9,8 @@ It contains inforamtion about the developer, links to his work & resume, and a c
 ![readme (2)](https://user-images.githubusercontent.com/65084173/95694913-13fcdb80-0bfa-11eb-85fd-29b65dc1a29f.png)
 
 
-# Link to Deployed Portfolio:
+# Link to Portfolio:
+[Deployed App](https://londonlast21.github.io/spaportfolio/)
 
 
 
