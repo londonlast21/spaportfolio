@@ -95,6 +95,7 @@ header {
   height: 10%;
   margin: auto;
   
+  
 }
 header h1 {
   font-size: 40px;
@@ -145,17 +146,18 @@ main{
 
 
 footer {
-
-  min-height: 50px;
   background-color: blanchedalmond;
   display: flex;
   flex-wrap: wrap;
   margin-top: auto;
   justify-content: center;
-  
- 
+  position: fixed;
+  bottom:0px;
+  left:0px;
+  width: 100%;
   
 }
+
 
 footer a {
   text-decoration: none;
