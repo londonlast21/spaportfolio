@@ -232,19 +232,6 @@ footer ul li a:hover {
   text-align: center;
 }
 
-/* .my-5-div-1 {
-  margin-left: 10%;
-}
-
-.my-5-link {
-  padding-left: 5%;
-
-}
-
-.my-5-div-2 {
-  margin-left: 10%;
-} */
-
 .resume-link {
   color: forestgreen;
 }
@@ -264,13 +251,23 @@ footer ul li a:hover {
 
 /* custom CSS for portfolio styling */
 
+.work-grid-item p {
+  font-size: 22px;
+  margin-top: 5px;
+  color:darkgreen;
+}
+
 
 .work-grid {
   display: grid;
      grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    width: 100%; 
+    width: 100%;   
 
+}
+
+.work-grid a:link {
+  text-decoration: none;
 }
 
 .work-grid-title {
@@ -294,15 +291,13 @@ footer ul li a:hover {
   
 }
 
-.work-grid-item:hover {
-  outline: 5px solid var(black);    
 
-}
 
 
 /* Nav bar styling */
 .nav-item {
   margin: 10px;
+  font-size: 22px;
 
 }
 .option {

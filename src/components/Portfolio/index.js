@@ -21,7 +21,7 @@ function Portfolio() {
 
                     <div className="work-grid-item">
                     <a href="https://londonlast21.github.io/run-buddy/">
-                    <p>
+                    <p className="project-title">
                         Run Buddy
                      </p>
                      <img src={projectImg1} className="work-img" style={{ width: "100%" }} alt="Run-Buddy Application" />
@@ -31,7 +31,7 @@ function Portfolio() {
 
                     <div className="work-grid-item">
                         <a href="https://limitless-meadow-67694.herokuapp.com/">
-                        <p>
+                        <p className="project-title">
                             Trans-Safe Healthcare App
                         </p>
                         <img src={projectImg2} className="my-2" style={{ width: "100%" }} alt="Trans Safe-Healthcare App" />
@@ -43,7 +43,7 @@ function Portfolio() {
 
                     <div className="work-grid-item">
                         <a href="https://londonlast21.github.io/password/">
-                        <p>
+                        <p className= "project-title">
                         Password Generator
                         </p>
                         <img src={projectImg3} className="my-2" style={{ width: "100%" }} alt="Password Generator" />
@@ -57,7 +57,7 @@ function Portfolio() {
                     
                     <div className="work-grid-item">
                         <a href="https://londonlast21.github.io/quiz/">
-                        <p>
+                        <p className="project-title">
                         Coding Quiz
                         </p>
                         <img src={projectImg4} className="mx-2" style={{ width: "100%" }} alt="Timed Coding Quiz" />
@@ -67,7 +67,7 @@ function Portfolio() {
 
                     <div className="work-grid-item">
                         <a href="https://protected-falls-61512.herokuapp.com/">
-                        <p>
+                        <p className="project-title">
                         Budget Tracker
                         </p>
                         <img src={projectImg5} className="mx-2" style={{ width: "100%" }} alt="On and offline budget tracker app" />
@@ -78,7 +78,7 @@ function Portfolio() {
                     <div className="work-grid-item">
                     
                         <a href="https://londonlast21.github.io/filmskeleton/">
-                            <p>
+                            <p className="project-title">
                                 Trauma Recovery Board
                             </p>
                             <img src={projectImg6} className="mx-2" style={{ width: "100%" }} alt="Tracking app for mental health recovery" />

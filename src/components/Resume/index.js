@@ -11,9 +11,9 @@ function Resume() {
                     LINK
                 </a> 
                  
-            </div>
+            
 
-            <div className="resume-outer">
+            
                 
                 <h3>Proficiencies</h3>
                 <ul className="resume-list">
