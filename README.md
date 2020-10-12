@@ -10,7 +10,7 @@ It contains inforamtion about the developer, links to his work & resume, and a c
 
 
 ## Link to Portfolio:
-[Deployed App](https://spaportfolio.herokuapp.com/)
+[Deployed App](https://londonlast21.github.io/spaportfolio/)
 
 
 ## Created With:
