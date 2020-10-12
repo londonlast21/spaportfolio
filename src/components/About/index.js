@@ -20,7 +20,7 @@ function About() {
                     <img src={coverImage} className="bio-pic" style={{ width: "25%" }} alt="cover" />
                     <div className="about-column-block">
                     <h3 className="me-name">Jack L. Cady</h3>
-                    <p className="tagline">
+                    <p className="about-bio">
                         I'm a full-stack web developer with a background in social media, advocacy work,
                         sociology, and management.
                     </p>
