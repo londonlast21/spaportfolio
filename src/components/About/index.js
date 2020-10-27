@@ -25,7 +25,7 @@ function About() {
                         sociology, and management.
                     </p>
                     <p className="about-bio">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        After graduating with a degree in Social Sciences, I spent time in Los Angeles handling social media for a small production company.  This was followed by working with the Trans community for several years, specializin in surgery outreach.  After working in management positions the last few years, I decided to change fields to web development, graduating in Fall 2020 from a coding bootcamp run out of the University of Wisconsin.
                     </p>
                     <p className="about-bio">
                         Location: Madison, WI
