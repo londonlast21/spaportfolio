@@ -77,9 +77,9 @@ function Portfolio() {
 
                     <div className="work-grid-item">
                     
-                        <a href="https://londonlast21.github.io/filmskeleton/">
+                        <a href="https://intense-coast-41555.herokuapp.com/">
                             <p className="project-title">
-                                Trauma Recovery Board
+                                Trans MERN App: V2.0
                             </p>
                             <img src={projectImg6} className="mx-2" style={{ width: "100%" }} alt="Tracking app for mental health recovery" />
                         </a>
