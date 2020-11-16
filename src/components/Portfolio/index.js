@@ -75,7 +75,7 @@ function Portfolio() {
                         <a className="link-port" href="https://github.com/londonlast21/budgetapp">GitHub Repo</a>
                     </div>
 
-                    <div className="work-grid-item">
+                    {/* <div className="work-grid-item">
                     
                         <a href="https://intense-coast-41555.herokuapp.com/">
                             <p className="project-title">
@@ -84,7 +84,7 @@ function Portfolio() {
                             <img src={projectImg6} className="mx-2" style={{ width: "100%" }} alt="Tracking app for mental health recovery" />
                         </a>
                         <a className="link-port" href="https://github.com/londonlast21/filmskeleton">GitHub Repo</a>
-                    </div>
+                    </div> */}
 
                     </div>
 
