@@ -77,13 +77,13 @@ function Portfolio() {
 
                     <div className="work-grid-item">
                     
-                        <a href="https://intense-coast-41555.herokuapp.com/">
+                        <a href="https://protected-bayou-57861.herokuapp.com/">
                             <p className="project-title">
                                 Trans MERN App: V2.0
                             </p>
                             <img src={projectImg6} className="mx-2" style={{ width: "100%" }} alt="Tracking app for mental health recovery" />
                         </a>
-                        <a className="link-port" href="https://github.com/londonlast21/">GitHub Repo</a>
+                        <a className="link-port" href="https://github.com/londonlast21/safeT">GitHub Repo</a>
                     </div>
 
                     </div>
