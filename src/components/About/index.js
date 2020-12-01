@@ -25,7 +25,7 @@ function About() {
                         sociology, and management.
                     </p>
                     <p className="about-bio">
-                        After graduating with a degree in Social Sciences, I spent time in Los Angeles handling social media for a small production company.  This was followed by working with the Trans community for several years, specializin in surgery outreach.  After working in management positions the last few years, I decided to change fields to web development, graduating in Fall 2020 from a coding bootcamp run out of the University of Wisconsin.
+                        After graduating with a degree in Social Sciences, I spent time in Los Angeles handling social media for a small production company.  This was followed by working with the Trans community for several years, specializing in surgery outreach.  After working in management positions the last few years, I decided to change fields to web development, graduating in Fall 2020 from a coding bootcamp run out of the University of Wisconsin.
                     </p>
                     <p className="about-bio">
                         Location: Madison, WI

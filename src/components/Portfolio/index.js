@@ -83,7 +83,7 @@ function Portfolio() {
                             </p>
                             <img src={projectImg6} className="mx-2" style={{ width: "100%" }} alt="Tracking app for mental health recovery" />
                         </a>
-                        <a className="link-port" href="https://github.com/londonlast21/filmskeleton">GitHub Repo</a>
+                        <a className="link-port" href="https://github.com/londonlast21/">GitHub Repo</a>
                     </div>
 
                     </div>
