@@ -10,7 +10,7 @@ function Footer() {
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.instagram.com/londonlast21/">
+                    <a href="https://www.instagram.com/crawltoyou/">
                         Instagram
                     </a>
                 </li>
